@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <script type="text/javascript" src="{{ url_for('static', filename='hello.js') }}"></script>
+</head>
+<body>
+    <h2>Welcome to Flask App</h2>
+    <p>Click the button below to see a JavaScript alert:</p>
+    <input type="button" onClick="sayHello()" value="Say Hello" />
+    <br><br>
+    <a href="{{ url_for('login') }}">Go to Login Page</a>
+</body>
+</html>
