@@ -15,3 +15,13 @@ Aplikasi web sederhana menggunakan Flask yang mendukung form login dengan metode
 - Flask 2.0+
 
 ## Instalasi
+
+Download Clone
+
+New Terminal Prompt :
+
+1. Install dependencies:
+pip install -r requirements.txt / pip install flask
+
+2. Run:
+python app.py
